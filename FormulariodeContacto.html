@@ -50,9 +50,7 @@
 
     <article>
 
-      <!-- action="mailto:mydonut@gmail.com" -->
-
-      <form  action="" method="post" enctype="text/plain" >
+      <form id="form" action="" method="post" enctype="text/plain" >
 
         <p>Escribinos por Whatsapp:<br><br>
 
@@ -64,30 +62,30 @@
 
         <p align="center"> Nombre y Apellido:<br>
 
-        <input id="nombre" type="text" name="nombre" size="22">
+        <input autofocus id="nombre" type="text" name="nombre" size="22" required>
         <br>
 
         Direccion de mail:<br>
 
-        <input id= "mail" type="text" name="mail" size="22">
+        <input id= "mail" type="text" name="mail" size="22" required>
         <br>
 
         Telefono:<br>
 
-        <input id="tel" type="text" name="tel" size="22">
+        <input id="tel" type="text" name="tel" size="22" required>
         <br>
       
         Motivo de tu contacto:<br>
 
-        <input id="subject" type="text" name="motivo" size="22">
+        <input id="subject" type="text" name="motivo" size="22" required>
         <br>
 
         Dejanos tus comentarios:<br>
 
-        <textarea id="comentarios" rows="5" cols="25" name="mensaje"></textarea>
+        <textarea id="comentarios" rows="5" cols="25" name="mensaje" required></textarea>
         <br>
 
-        <input  type="submit" value="Enviar" onClick="validacion();">
+        <input type="submit" value="Enviar" onClick="return validacion();">
        
         </p>
 

@@ -20,7 +20,6 @@
         font-size: 22px;
     }
     h2{
-
         font-size: 60px;    
     }
 }
@@ -28,7 +27,6 @@
     p{
         font-size: 20px;
     }
-
     #logoh{
         height:9rem;
     } 
@@ -67,8 +65,7 @@
         font-size: 14px;
     }
     h2{
-
-        font-size: 30px;    
+     font-size: 30px;    
     }
 }
 
@@ -91,6 +88,7 @@ h2{
 a{
     text-decoration: none;
 }
+
 header{
 
     display: flex;
@@ -178,6 +176,7 @@ form{
     width: 100%;
 
 }
+
 #logowhap{
 
     width:2.2rem;
@@ -191,11 +190,7 @@ footer{
     font-size: 1.4rem;
     text-shadow: rgba(192, 188, 187) 5px 5px ,white 8px 8px;
 }
-/* #logoh{
-    margin: 0rem 1rem 0rem 2rem;
-    height: 10rem;
 
-} */
 #logo{
     margin-top: 0.5rem;
     height: 3.5rem;

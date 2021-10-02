@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="StyleSheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+  <link rel="javascript" href="javascript.js">
+  
+
+<!-- TITULO DE PESTANA CON FAVICON -->
+
+<head>
+
+  <title>My Donuts</title>
+  <link rel="icon" href="Iconos/icono.png" type="image/gif" sizes="18x18">
+  <script src="javascript.js"></script>
+  
+</head>
+
+<!-- CUERPO DE PAGINA -->
+
+<body>
+
+<!-- ENCABEZADO CON MENU -->
+
+<header>
+
+  <a href="Index.html"><img id="logoh" src="Iconos/donuts1.png"></a> <h2>My Donuts</h2>
+  
+</header>
+
+  <nav>
+    
+    <a style="text-decoration: none;" href="Index.html" >Home &nbsp;</a> 
+    <a style="text-decoration: none;" href="CatalogoDonuts.html" >Donuts &nbsp;</a> 
+    <a style="text-decoration: none;" href="NuestrosLocales.html" >Locales &nbsp;</a>
+        
+  </nav>
+
+<!-- SECTION -->
+
+    <section id="sectioncontacto">
+
+
+    <!-- FORMULARIO DE CONTACTO -->
+
+    <article>
+
+      <!-- action="mailto:mydonut@gmail.com" -->
+
+      <form  action="" method="post" enctype="text/plain" >
+
+        <p>Escribinos por Whatsapp:<br><br>
+
+          <a href="https://web.whatsapp.com/"> <img id="logowhap" src="Iconos/whatsapp.png"></a>
+          
+        </p>
+
+        <p>O completá el formulario de contacto:</p>
+
+        <p align="center"> Nombre y Apellido:<br>
+
+        <input id="nombre" type="text" name="nombre" size="25">
+        <br>
+
+        Direccion de mail:<br>
+
+        <input id= "mail" type="text" name="mail" size="25">
+        <br>
+
+        Telefono:<br>
+
+        <input id="tel" type="text" name="tel" size="25">
+        <br>
+      
+        Motivo de tu contacto:<br>
+
+        <input id="subject" type="text" name="motivo" size="25">
+        <br>
+
+        Dejanos tus comentarios:<br>
+
+        <textarea id="comentarios" rows="5" cols="25" name="mensaje"></textarea>
+        <br>
+
+        <input  type="submit" value="Enviar" onClick="validacion();">
+       
+        </p>
+
+      </form>
+
+     </article>
+
+  </section>
+
+  <footer>
+    <div id="divfooter1">
+    <img id="logo" src="Iconos/donuts1.png"><p id="footerfont"> My Donuts</p>
+  </div>
+  <div id="divfooter2">
+    <a href="https://instagram.com"><img src="Iconos/instagram.png" style="width:1.3rem;height:1.3rem; margin-top: 0.6rem;margin-bottom: 0.6rem;"></a>
+    <a href="https://twitter.com"><img src="Iconos/twitter.png" style="width:1.3rem;height:1.3rem;margin-bottom: 0.6rem;"></a>
+    <a href="https://Facebook.com"><img src="Iconos/facebook.png" style="width:1.3rem;height:1.3rem;margin-bottom: 0.6rem;"></a><br>
+  </div>
+  </footer>
+
+</body>
+</html>

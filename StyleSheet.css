@@ -1,0 +1,212 @@
+/* HOJA DE ESTILO */
+
+/* ESTILO UNIVERSAL */
+
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+
+/* DISPLAY SIZE - PUNTOS DE CORTE */
+
+@media (max-width: 1800px){
+    p{
+        font-size: 24px;
+    }
+    #logoh{
+        height:11rem;
+    } 
+    nav{ 
+        font-size: 22px;
+    }
+    h2{
+
+        font-size: 60px;    
+    }
+}
+@media (max-width: 1000px){
+    p{
+        font-size: 20px;
+    }
+
+    #logoh{
+        height:9rem;
+    } 
+    nav{ 
+        font-size: 20px;
+    }
+    h2{
+
+        font-size: 50px;    
+    }
+}
+@media (max-width: 850px){
+    p{
+        font-size: 16px;
+    }
+
+    #logoh{
+        height:7rem;
+    } 
+    nav{ 
+        font-size: 18px;
+    }
+    h2{
+
+        font-size: 40px;    
+    }
+}
+@media (max-width: 576px){
+    p{
+        font-size: 11px;
+    }
+    #logoh{
+        height:5rem;
+    } 
+    nav{ 
+        font-size: 14px;
+    }
+    h2{
+
+        font-size: 30px;    
+    }
+}
+
+/* ESTILOS POR CLASE - ID*/
+
+body{
+
+    width: 95%;
+    margin-left: 2%;
+    background-image: url(Imagenes/estampatransparente.png);
+    background-repeat: repeat; 
+}
+
+h2{
+
+    text-shadow: pink 5px 5px ,white 8px 8px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+header{
+
+    display: flex;
+    background-color: rgba(192, 188, 187, 0.8);
+    text-align: center;
+    margin-bottom: 0%;
+}
+nav{
+    background-color: rgba(224, 223, 220, 0.8);
+    padding: 0.7rem;
+    text-align: right;
+    color:  pink;
+    
+}
+section{
+
+    display:flex;
+    justify-content: center;
+    position: relative;
+    column-gap: 1rem;
+    background-color: rgba(250, 224, 238,0.8);
+    margin-bottom: 0px;
+}
+iframe{
+
+    margin: 1rem 0rem 1rem 1rem;
+    width:95%;
+    height: 25rem;
+    border-style: solid;
+    border: rgba(255, 173, 228);   
+}
+#sectioncatalogo{
+
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    height: 100%;
+    width: 100%;
+}
+div{
+    margin-top: 1rem;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+#imgcatalogo{
+
+    border-radius: 40%; 
+    vertical-align: middle;
+    height: 60%;
+    width: 60%;
+}
+#imgcatalogo:hover{
+
+    transform: scale(1.5, 1.5);
+    -ms-transform: scale(1.5,1.5);
+}
+article{
+
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+p{
+    text-align: center;
+}
+form{
+ 
+    margin-top: 1rem;
+    vertical-align: middle;
+}
+#imghome{
+
+    background-size: cover;
+    margin-top:0.5rem;
+    width:100%;
+    height:auto;
+    border-radius: 10%;
+
+}
+#sectioncontacto{
+    background-image: url(Imagenes/contacto.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    height: 100%;
+    width: 100%;
+
+}
+#logowhap{
+
+    width:2.2rem;
+    height:2.2rem;
+    vertical-align: middle;
+}
+footer{
+    background-color: rgb(255, 173, 227);
+}
+#footerfont{
+    font-size: 1.4rem;
+    text-shadow: rgba(192, 188, 187) 5px 5px ,white 8px 8px;
+}
+/* #logoh{
+    margin: 0rem 1rem 0rem 2rem;
+    height: 10rem;
+
+} */
+#logo{
+    margin-top: 0.5rem;
+    height: 3.5rem;
+}
+#divfooter1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+
+}
+#divfooter2{  
+    margin-top: 0px; 
+
+}

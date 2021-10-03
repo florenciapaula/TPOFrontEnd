@@ -32,7 +32,6 @@
 						 "Mail: " + mail + "\r" +
 						 "Tel: " + tel + "\r" +
 						 "Comentarios: " + comentarios);
-
-	return (false);
+		
 	}
 }}

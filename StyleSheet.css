@@ -126,6 +126,7 @@
     }
 }
 @media (max-width: 576px){
+
     #sectioncatalogo{    
         display:grid;
         grid-template-columns: auto auto;
@@ -234,10 +235,11 @@ form{
     vertical-align: middle;
 }
 #imghome{
-    background-size: cover;
+
+    /* background-size: cover; */
     margin-top:0.5rem;
-    width:100%;
     height:auto;
+    width:100%;
     border-radius: 10%;
 }
 #sectioncontacto{

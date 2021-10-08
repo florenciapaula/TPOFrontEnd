@@ -17,7 +17,7 @@
         width: 100%;
     }
     iframe{
-        margin: 1rem 0rem 1rem 1rem;
+        margin: 1rem 0rem 1rem 0rem;
         width:95%;
         height: 25rem;
         border-style: solid;
@@ -56,7 +56,7 @@
         width: 100%;
     }
     iframe{
-        margin: 1rem 0rem 1rem 1rem;
+        margin: 1rem 0rem 1rem 0rem;
         width:95%;
         height: 25rem;
         border-style: solid;
@@ -95,14 +95,15 @@
         width: 100%;
     }
     iframe{
+        margin: 1rem 0rem 1rem 0rem;
         width:100%;
-        height: 25rem;
+        height: 20rem;
         border-style: solid;
         border: rgba(255, 173, 228);   
     }
     #mapas{
         display:flex;
-        flex-direction: column;
+        flex-direction:column;
         align-content: center;
         background-color: rgba(250, 224, 238,0.8);
         margin-bottom: 0px;
@@ -132,13 +133,15 @@
         width: 100%;
     }
     iframe{
-        width:100%;
-        height: 25rem;
+        margin: 1rem 0rem 1rem 0rem;
+        width: 100%;
+        height: 20rem;
         align-self:center;
         border-style: solid;
         border: rgba(255, 173, 228);   
     }
     #mapas{
+        width: 100%;
         display:flex;
         flex-direction: column;
         align-content: center;
@@ -212,6 +215,12 @@ div{
 #imgcatalogo:hover{
     transform: scale(1.5, 1.5);
     -ms-transform: scale(1.5,1.5);
+}
+#articlemapas{
+
+
+    width: 100%;
+    height: auto;
 }
 article{
     align-self:center;
